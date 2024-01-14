@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="ham-menu" src="icons/3dashes.svg"> 
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div> 
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button"> 
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icons-container">
+          <img class="upload-icons" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="apps-icons-container">
+          <img class="youtube-apps-icons" src="icons/youtube-apps.svg">
+          <div class="tooltip">Youtube apps</div>
+        </div>
+        
+        <div class="notifications-icon-container">
+          <img class="notifications-icons" src="icons/notifications.svg">
+          <div class="notifications-count">69</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        
+        <img class="current-user-pics" src="channelpics/gear5.png">
+      </div>
+      
+    </div>
+    
+    <div class="sidebar">
+      <div class="sidebar-link"> 
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div> 
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div> 
+      <div class="sidebar-link">
+       <img src="icons/subscriptions.svg">
+       <div>Subscriptions</div>
+      </div> 
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div> 
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div> 
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div> 
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=IaJn9v35zy4&ab_channel=BryceBuildsItAll" target="_blank">
+            <img class="thumbnail" src="thumbnails/airplane.webp">
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/chadYe.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              my pookie bear
+            </p>
+            <p class="video-author">
+              Ye Htut Lwin
+            </p>
+            <p class="video-stats">
+              100B views &#183; 1 minute ago
+            </p>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=CP5G7kBkpHc&ab_channel=Cocho" target="_blank">
+            <img class="thumbnail" src="thumbnails/rim.webp">
+          </a>
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/yh.JPG">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Grind The Glory
+            </p>
+            <p class="video-author">
+              Yuheng Li
+            </p>
+            <p class="video-stats">
+              69M views &#183; 69 seconds ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=LbqAYW8ylsE&ab_channel=AbrahamThePharmacist" target="_blank">
+            <img class="thumbnail" src="thumbnails/turkey.webp">
+          </a>
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/wong.JPG">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              short scoliosis demon
+            </p>
+            <p class="video-author">
+              Evelyn Wong
+            </p>
+            <p class="video-stats">
+              0 views &#183; 100 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=C1UX3y9Gzbo&ab_channel=OneShotQuesters" target="_blank">
+            <img class="thumbnail" src="thumbnails/gundam.webp">
+          </a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/justin.JPG">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              short scoliosis demon caretaker
+            </p>
+            <p class="video-author">
+              Justin (Yafang) Wu
+            </p>
+            <p class="video-stats">
+              10 Bajillion views &#183; 30 seconds ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=nHeTfagADnc&ab_channel=ADudeNamedJeff" target="_blank">
+            <img class="thumbnail" src="thumbnails/sailor.jpg">
+          </a>
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/tiff.JPG">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              quack
+            </p>
+            <p class="video-author">
+              Tiffany Zhengoose
+            </p>
+            <p class="video-stats">
+              -1 views &#183; -1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=dCrQeUaXkLo&ab_channel=LilNasXVEVO" target="_blank">
+            <img class="thumbnail" src="thumbnails/christ.webp">
+          </a>
+          <div class="video-time">6:66</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/alex.JPG">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              J Christ
+            </p>
+            <p class="video-author">
+              Alex Zhengoose
+            </p>
+            <p class="video-stats">
+              141M views &#183; 3 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=3xfbMATqOgo&ab_channel=hwahn" target="_blank">
+            <img class="thumbnail" src="thumbnails/toji.webp">
+          </a>
+          <div class="video-time">69:69</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/devin.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Nah I'd Win
+            </p>
+            <p class="video-author">
+              Devin Lin
+            </p>
+            <p class="video-stats">
+              133M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=LwDHMRMOH40&ab_channel=It%27sStefano" target="_blank">
+            <img class="thumbnail" src="thumbnails/choppa.webp">
+          </a>
+          <div class="video-time">9:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/lilbro.JPG">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              lil bro never making it out of bronze
+            </p>
+            <p class="video-author">
+              Gian Miguel Bualo
+            </p>
+            <p class="video-stats">
+              100,000 views &#183; 1 week ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=QfnViaWI4sc&ab_channel=3MinuteLeagueofLegends" target="_blank"> 
+            <img class="thumbnail" src="thumbnails/rengar.webp">
+          </a>
+          <div class="video-time">10:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channelpics/Arkar.JPG">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Title for akrar
+            </p>
+            <p class="video-author">
+              Arkar Oo
+            </p>
+            <p class="video-stats">
+              10,000 views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
